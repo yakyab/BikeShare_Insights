@@ -16,9 +16,11 @@ The project is organized in the following structure:
 
 1. Data_Preparation.ipynb: This notebook contains the data acquisition and preprocessing steps. It involves data cleaning, data type conversion, and the removal of unnecessary columns and missing values. The cleaned data is then stored in a SQL database.
 
-2. Data_Analysis.ipynb: This notebook contains the data analysis part where SQL queries are written and executed to extract meaningful insights from the data. The results of these SQL queries are then exported as Excel files.
+2. Data_Analysis.ipynb: This notebook contains the data analysis part where SQL queries are written and executed to extract meaningful insights from the data. 
 
 3. Data_Visualization.ipynb: This notebook prepares the data for visualization and suggests potential visualization types for PowerBI. The processed data is stored in a form that can be easily imported into PowerBI for further visualization.
+
+4. `BikeShare Insights - Report.pdf` - This file contains the final report of the analysis. It is a PDF export of the PowerBI dashboard and includes visualizations of the key insights derived from the data. It provides a concise overview of the bike rentals patterns related to hours, weather conditions, weekdays, and seasons.
 
 The results of the analysis and the data visualizations are saved and organized in a GitHub repository.
 
@@ -26,7 +28,5 @@ The results of the analysis and the data visualizations are saved and organized 
 - Python: Used for data acquisition, cleaning, and analysis. Python's various libraries such as pandas, numpy, and sqlalchemy are used extensively.
 
 - SQL: Used for storing, managing, and querying the cleaned data.
-
-- MS Excel: Used as an intermediate step for storing the results from SQL queries which are then imported into PowerBI.
 
 - PowerBI: Used for creating interactive visualizations and dashboards based on the analyzed data.
